@@ -9,13 +9,16 @@
 <body>
   <div id="app">Loading...</div>
 
-  <script>
-    window.$docsify = {
-      name: 'lost-found.gr Wiki',
-      repo: 'https://github.com/lost-found-gr/WIKI',
-      loadSidebar: true,
-      homepage: 'HOME.md'   // <-- Start from HOME.md
-    };
-  </script>
+ <script>
+  window.$docsify = {
+    name: 'lost-found.gr Wiki',
+    repo: 'https://github.com/yourusername/chromium-v94-safety-wiki',
+    loadSidebar: true,
+    loadHeader: true,      // ← this enables _header.md
+    homepage: 'HOME.md',
+    basePath: '/WIKI/'  // important for GitHub Pages project site
+  };
+</script>
+
 </body>
 </html>
