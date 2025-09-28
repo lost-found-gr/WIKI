@@ -1,3 +1,3 @@
-[Home](HOME.md)
-[About](about-us.md)
-[Contribute](CONTRIBIUTING.md)
+[Home](HOME.md)<br>
+[About](about-us.md)<br>
+[Contribute](CONTRIBIUTING.md)<br> <!-- -->
