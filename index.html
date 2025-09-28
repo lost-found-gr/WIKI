@@ -4,8 +4,18 @@
   <meta charset="UTF-8">
   <title>lost-found.gr Wiki</title>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">Loading...</div>
+
+  <script>
+    window.$docsify = {
+      name: 'lost-found.gr Wiki',
+      repo: 'https://github.com/lost-found-gr/WIKI',
+      loadSidebar: true,
+      homepage: 'HOME.md'   // <-- Start from HOME.md
+    };
+  </script>
 </body>
 </html>
